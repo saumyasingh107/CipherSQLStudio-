@@ -1,0 +1,40 @@
+@use "../abstracts/variables" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-body;
+  color: $color-text;
+  background:
+    radial-gradient(circle at 5% 5%, #ffe9bf 0%, transparent 30%),
+    radial-gradient(circle at 95% 0%, #b2f1ea 0%, transparent 25%),
+    $color-bg;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-heading;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+

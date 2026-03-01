@@ -1,0 +1,20 @@
+@use "./variables" as *;
+
+@mixin respond-sm {
+  @media (min-width: $bp-sm) {
+    @content;
+  }
+}
+
+@mixin respond-md {
+  @media (min-width: $bp-md) {
+    @content;
+  }
+}
+
+@mixin respond-lg {
+  @media (min-width: $bp-lg) {
+    @content;
+  }
+}
+
