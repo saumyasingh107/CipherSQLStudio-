@@ -102,8 +102,3 @@ Prompt rules ensure:
 - no full executable SQL solution
 - concise conceptual guidance
 
-## Data-Flow Diagram (Compulsory in Submission)
-Create a hand-drawn diagram for:
-`Execute Query click -> frontend state update -> API call -> backend validation -> PostgreSQL read-only query -> response -> result rendering`
-
-Use [`docs/data-flow-diagram-template.md`](/e:/assignmenttt/docs/data-flow-diagram-template.md) as a labeling checklist.
